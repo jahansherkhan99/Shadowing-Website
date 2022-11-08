@@ -7,22 +7,50 @@
 	<link href="style.css" rel="stylesheet">
 
 <body>
-		
-	
+	<nav class="navbar">
+		<a href="index.html">
+			<img class="logo" src="WhatsApp Image 2022-11-07 at 10.28.55 PM.jpeg"></img>
+		</a>
+
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+
+        <div class = "header">
+        <div class="navbar-links">
+            <ul id="nav">
+		   <li class="book" style="font-weight: bold"><a href="booking.html">About Us</a></li>
+           <li class="book" style="font-weight: bold"><a href="booking.html">Contact Us</a></li>
+       </ul>
+        </div>
+        </div>
+    </nav>
+		<h1 style="padding-top: 60px">Find a physician to</h1>
+		<h1 style="padding-top: -20px">shadow in NYC or Boston</h1>
+
+	<!-- <ul id = "topav">
+	    <li> <a href="file:///Macintosh HD/Users/jahansherkhan/Documents/Shadowing Website Code/index.html">Log In/Sign Up</a></li>
+		<li> <a href="file:///Macintosh HD/Users/jahansherkhan/Documents/Shadowing Website Code/Contact.html">Contact Us</a> </li>
+		<li> <a href="file:///Macintosh HD/Users/jahansherkhan/Documents/Shadowing Website Code/Untitled-2.html">About</a> </li>
+	</ul> -->
+
+
 	<div class="head">
-            <div class="head-content">
+            <!-- <div class="head-content">
                 <div class="head-text">
                     <strong>Find a Physician to Shadow in NYC or Boston!</strong>
                 </div>
-            </div>
+            </div> -->
     </div>
-	
+
 	<form align= "center" style = display:block action = "processform.php">
 			 <label for="specialty">Specialty:</label>
    			 <select name="specialty" id="specialty">
 				<option value="Immunology">Allergy and Immunology</option>
 				<option value="Anesthesiology">Anesthesiology</option>
-				<option value="Cardiology">Cardiology</option> 
+				<option value="Cardiology">Cardiology</option>
 				<option value="Dermatology">Dermatology</option>
 				<option value="Radiology">Diagnostic Radiology</option>
 				<option value="Emergency">Emergency Medicine</option>
@@ -59,14 +87,14 @@
 			<br>
 			<br>
 			<input type="submit" value="Submit">
-	
+
 		</form>
-	
-	
-        
+
+
+
     </div>
   </div>
 
-	
+
 </body>
 </html>
