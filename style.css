@@ -1,0 +1,43 @@
+@charset "UTF-8";
+ CSS Document 
+
+.head {
+	background-color: white;
+}
+
+.head-content {
+	padding: 16px;
+}
+
+.head-text {
+	font-family: cursive;
+	color: black;
+	font-size: 36px;
+	text-align: center; 
+	padding: 15px;
+}
+
+#topav li a:hover {
+ background-color: #111;
+}
+#topav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#topav li {
+	  float:right
+}
+
+#topav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
